@@ -3,11 +3,11 @@ var main = function () {
 };
 
 let arrAvg = (numList) => {
-  var x = 0;
+  var total = 0;
   for(i=0; i < numList.length; i++){
-    x += numList[i];
+    total += numList[i];
     }
-  return (x/numList.length);
+  return (total/numList.length);
 };
 
 let arrMax = (numList) => {
@@ -21,5 +21,16 @@ let arrMax = (numList) => {
   return (maximum);
 };
 
-//var x = arrMax([-1,-5,-3,-4.663,-2]);
+let sumEvens = (numList) => {
+  var totalEvens = 0;
+  for (var element of numList) {
+    if (element % 2 == 0) {
+      totalEvens += element;
+    }
+  }
+  return (totalEvens);
+};
+
+
+//var x = sumEvens([1, 2, 3, 4, 5]);
 //document.getElementById("demo").innerHTML = x;
