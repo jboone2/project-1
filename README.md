@@ -4,7 +4,7 @@
 
 - Basic Unix Shell commands
 - Install and Configure Git using the Unix Shell
-- Basic Gid Commands (add, commit, push, clone)
+- Basic Git Commands (add, commit, push, clone)
 - Github overview
 - Markdown language for README files
 - JavaScript ES6+ features
