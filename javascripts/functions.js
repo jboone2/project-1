@@ -9,3 +9,17 @@ let arrAvg = (numList) => {
     }
   return (x/numList.length);
 };
+
+let arrMax = (numList) => {
+  var maximum = numList[0];
+  numList.forEach(function(element){
+    //console.log(element);
+    if (maximum < element){
+      maximum = element;
+    }
+  });
+  return (maximum);
+};
+
+//var x = arrMax([-1,-5,-3,-4.663,-2]);
+//document.getElementById("demo").innerHTML = x;
