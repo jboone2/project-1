@@ -1,5 +1,7 @@
 # CIT 281 Project 1
 
+![alt text](images/octocat.jpg "Octocat")
+
 ## Learning Objectives
 
 - Basic Unix Shell commands
