@@ -2,6 +2,7 @@
 
 ![alt text](images/octocat.jpg "Octocat")
 
+https://pages.uoregon.edu/jboone2/281/p1/
 ## Learning Objectives
 
 - Basic Unix Shell commands
